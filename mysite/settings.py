@@ -25,7 +25,7 @@ SECRET_KEY = 'zpfap^j$fu(&g(z)l6f4l2zj&ficwj12ocuf6rqy9727$kx!4h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '[::1]', '.pythonanywhere.com']
 
 
 # Application definition
